@@ -1,11 +1,14 @@
-import Gallery from './components/Gallery';
-function App() {
-  return (
-    <div>
-      <h1>Привет мир!</h1>
-      <Gallery />
-    </div>
-  );
+function Profile() {
+  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
 }
 
-export default App;
+export default function Gallery() {
+  return (
+    <section>
+      <h1>Потрясающие ученые</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
+  );
+}
