@@ -36,5 +36,5 @@ export const people = [
     imageId: 'lrWQx8l',
   },
 ];
-people.forEach((person) => (person.id = crypto.randomUUID()));
-console.log(people);
+// people.forEach((person) => (person.id = crypto.randomUUID()));
+// console.log(people);

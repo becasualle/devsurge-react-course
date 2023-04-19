@@ -1,5 +1,5 @@
-import { Filter } from './RenderingLists';
+import { ImpureTeaSet } from './PureComponents';
 
 export default function App() {
-  return <Filter />;
+  return <ImpureTeaSet />;
 }
