@@ -1,5 +1,12 @@
-import { ImpureTeaSet } from './PureComponents';
+import {
+  AddHandler,
+  Toolbar,
+  ToolbarProps,
+  ToolbarWithMovieAndImageBtns,
+  ToolbarPropagation,
+  Signup,
+} from './Events';
 
 export default function App() {
-  return <ImpureTeaSet />;
+  return <Signup />;
 }
