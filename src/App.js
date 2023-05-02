@@ -1,12 +1,9 @@
-import {
-  AddHandler,
-  Toolbar,
-  ToolbarProps,
-  ToolbarWithMovieAndImageBtns,
-  ToolbarPropagation,
-  Signup,
-} from './Events';
+import { StatelessGalerry, StatefullGalerry, MultipleStates } from './State';
 
 export default function App() {
-  return <Signup />;
+  return (
+    <>
+      <StatelessGalerry />
+    </>
+  );
 }
