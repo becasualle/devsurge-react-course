@@ -1,9 +1,9 @@
-import { StateAsSnapshot } from './State';
+import { StateObjectForm } from './State';
 
 export default function App() {
   return (
     <>
-      <StateAsSnapshot />
+      <StateObjectForm />
     </>
   );
 }
