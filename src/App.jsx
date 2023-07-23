@@ -1,15 +1,9 @@
-import {
-  ListAdd,
-  ListRemove,
-  ShapeEditor,
-  CounterList,
-  BucketList,
-} from './State/index';
+import Form from './reacting-to-input-with-state/form';
 
 export default function App() {
   return (
     <>
-      <BucketList />
+      <Form />
     </>
   );
 }
