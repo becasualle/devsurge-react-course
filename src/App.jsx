@@ -1,9 +1,9 @@
-import Form from './reacting-to-input-with-state/form';
+import { TravelPlan } from './choosing-the-state-structure';
 
 export default function App() {
   return (
     <>
-      <Form />
+      <TravelPlan />
     </>
   );
 }
