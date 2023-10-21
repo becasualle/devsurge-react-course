@@ -1,9 +1,9 @@
-import { TravelPlan } from './choosing-the-state-structure';
+import { Accordion } from './sharing-state-between-components';
 
 export default function App() {
   return (
     <>
-      <TravelPlan />
+      <Accordion />
     </>
   );
 }
