@@ -1,9 +1,9 @@
-import { Accordion } from './sharing-state-between-components';
+import { ParaCounter } from './preserving-and-resetting-state';
 
 export default function App() {
   return (
     <>
-      <Accordion />
+      <ParaCounter />
     </>
   );
 }
