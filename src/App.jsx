@@ -1,9 +1,9 @@
-import { ParaCounter } from './preserving-and-resetting-state';
+import { TaskAppUseState } from './extracting-state-logic-into-a-reducer';
 
 export default function App() {
   return (
     <>
-      <ParaCounter />
+      <TaskAppUseState />
     </>
   );
 }
