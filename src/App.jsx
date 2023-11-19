@@ -1,9 +1,9 @@
-import { TaskAppUseState } from './extracting-state-logic-into-a-reducer';
+import { ContextPage } from './passing-data-deeply-with-context';
 
 export default function App() {
   return (
     <>
-      <TaskAppUseState />
+      <ContextPage />
     </>
   );
 }
