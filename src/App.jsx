@@ -1,9 +1,9 @@
-import { TaskApp } from './scaling-up-with-reducer-and-context/TaskApp';
+import { Stopwatch } from './referencing-values-with-refs';
 
 export default function App() {
   return (
     <>
-      <TaskApp />
+      <Stopwatch />
     </>
   );
 }
