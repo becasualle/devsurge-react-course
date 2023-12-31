@@ -1,9 +1,9 @@
-import { Stopwatch } from './referencing-values-with-refs';
+import { PlaygroundPage } from './synchronizing-with-effects';
 
 export default function App() {
   return (
     <>
-      <Stopwatch />
+      <PlaygroundPage />
     </>
   );
 }
