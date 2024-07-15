@@ -1,9 +1,11 @@
-import { Chat } from './lifecycle-of-reactive-effects/ChatRoom';
+import SaveButton from './reusing-logic-with-custom-hooks/SaveButton';
+import StatusBar from './reusing-logic-with-custom-hooks/StatusBar';
 
 export default function App() {
   return (
     <>
-      <Chat />
+      <StatusBar />
+      <SaveButton />
     </>
   );
 }

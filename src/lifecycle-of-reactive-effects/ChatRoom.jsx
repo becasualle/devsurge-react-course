@@ -33,9 +33,14 @@ export function Chat() {
 }
 
 function ChatRoom({ roomId }) {
-  const serverUrl = `https://localhost:1234/${roomId}`;
+  useEffect(() => {
+    logVisit(roomId);
+  }, [roomId]);
+
   // 2. Затем стартует синхронизация эффекта
   useEffect(() => {
+    const serverUrl = `https://localhost:1234/${roomId}`;
+
     // Старт/начало синхронизации
     const connection = createConnection(serverUrl, roomId);
     connection.connect();
@@ -43,7 +48,7 @@ function ChatRoom({ roomId }) {
     return () => {
       connection.disconnect();
     };
-  }, [roomId, serverUrl]);
+  }, [roomId]);
   // ...
   return <h1>Добро пожаловать в чат "{roomId}"!</h1>; // 1. Сначала отображается UI
 }
@@ -57,4 +62,8 @@ function createConnection(serverUrl, roomId) {
       console.log(`disconnect from: ${roomId}`);
     },
   };
+}
+
+function logVisit(roomId) {
+  // отправляем данные в нашу систему аналитики
 }
