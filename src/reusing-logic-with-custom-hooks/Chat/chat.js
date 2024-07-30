@@ -1,5 +1,4 @@
 export function createConnection({ serverUrl, roomId }) {
-  // A real implementation would actually connect to the server
   if (typeof serverUrl !== 'string') {
     throw Error('Expected serverUrl to be a string. Received: ' + serverUrl);
   }
